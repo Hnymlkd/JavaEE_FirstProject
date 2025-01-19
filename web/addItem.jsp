@@ -25,7 +25,7 @@
     </nav>
     <br>
 
-    <!-- Кнопка для открытия модального окна -->
+
     <div class="add-item-button">
         <button class="btn btn-primary"
                 data-bs-toggle="modal"
@@ -39,7 +39,7 @@
         List<Item> itemList = (List<Item>) request.getAttribute("tovary");
     %>
 
-    <!-- Здесь не должно быть пустой таблицы -->
+
     <table class="table">
         <thead>
         <tr>
